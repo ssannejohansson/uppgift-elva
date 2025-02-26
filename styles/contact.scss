@@ -1,0 +1,8 @@
+@use 'fonts';
+
+@import 'head';
+@import 'footer';
+
+* {
+    font-family: fonts.$main-font; 
+}
