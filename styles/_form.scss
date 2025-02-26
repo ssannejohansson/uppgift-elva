@@ -1,0 +1,27 @@
+.form {
+    max-width: 475px;
+    width: 100%;
+    min-height: 291px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    &__label {
+        min-height: 37px;
+        height: 100%;
+background-color: #fff;
+font-size: 16px;
+font-weight: bold;
+opacity: 60%;
+border: none;
+    }
+
+    &__input {
+border-bottom: 1px solid #D8D8D8; 
+    }
+
+    }
+
+}
+

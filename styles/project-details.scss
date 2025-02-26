@@ -6,3 +6,65 @@
 * {
     font-family: fonts.$main-font; 
 }
+
+main {
+    background-color: #fff;
+    margin-left: 125px;
+    margin-right: 125px; 
+}
+
+.top {
+    margin-bottom: 22px;
+
+    &__head {
+        max-width: 495px;
+        width: 100%;
+        min-height: 130px;
+        height: 100%;
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 55px;
+    }
+
+    &__info {
+        max-width: 635px;
+        width: 100%;
+        min-height: 222px;
+        height: 100%;
+        font-size: 16px;
+        font-style: normal; 
+        line-height: 26px; 
+        opacity: 80%;
+    }
+}
+
+.img {
+    margin-top: 61px;
+
+    &__1 {
+        width: 100%;
+    }
+
+    &__text {
+    margin-top: 45px;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 26px;  
+    opacity: 80%;
+    margin-bottom: 45px;
+    }
+}
+
+.img2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 132px;
+
+    &__2, &__3, &__4 {
+    max-width: 350px;
+    width: 100%;
+    min-height: 400px;
+    height: 100%;
+    }
+}
