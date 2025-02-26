@@ -1,4 +1,9 @@
-body {
-  height: 100vh; 
+@use 'fonts';
 
+@import 'head';
+@import 'main';
+@import 'footer';
+
+* {
+    font-family: fonts.$main-font; 
 }
