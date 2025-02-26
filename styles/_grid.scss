@@ -3,4 +3,69 @@
     width: 100%;
     min-height: 1960px;
     height: 100%; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(32 1fr);
+    grid-gap: 20px; 
 }
+
+.one {
+    grid-row: ;
+    grid-column: ;
+}
+
+.two {
+    grid-row: ;
+    grid-column: ;
+}
+
+.three {
+    grid-row: ;
+    grid-column: ;
+}
+
+.four {
+    grid-row: ;
+    grid-column: ;
+}
+
+.five {
+    grid-row: ;
+    grid-column: ;
+}
+
+.six {
+    grid-row: ;
+    grid-column: ;
+}
+
+.seven {
+    grid-row: ;
+    grid-column: ;
+}
+
+.eight {
+    grid-row: ;
+    grid-column: ;
+}
+
+.nine {
+    grid-row: ;
+    grid-column: ;
+}
+
+.ten {
+    grid-row: ;
+    grid-column: ;
+}
+
+.eleven {
+    grid-row: ;
+    grid-column: ;
+}
+
+.twelve {
+    grid-row: ;
+    grid-column: ;
+}
+
