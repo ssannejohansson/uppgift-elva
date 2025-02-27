@@ -101,12 +101,9 @@ ul {
         font-style: none; 
         font-size: 18px;
         opacity: 60%;
-    
-    & li {
-        margin-bottom: 10px;
     }
-
-    }
-
 }
+
+@import 'award-grid'; 
+
 
