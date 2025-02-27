@@ -3,9 +3,6 @@
 @import 'head';
 @import 'footer';
 
-* {
-    font-family: fonts.$main-font; 
-}
 
 main {
     background-color: #fff;
@@ -15,16 +12,18 @@ main {
 
 .top {
     display: flex;
-    
+    justify-content: space-between;
+    align-items: center;
 
     &__head {
         max-width: 475px;
         width: 100%;
         min-height: 174px;
         height: 100%;
-font-size: 40px;
-font-weight: bold;
-line-height: 55px;
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 55px; 
+        margin-bottom: 22px;
     }
 
     &__info {
@@ -44,5 +43,4 @@ line-height: 55px;
 
 .img__3 {
     width: 100%; 
-
 }

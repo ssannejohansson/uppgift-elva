@@ -10,18 +10,35 @@
     &__label {
         min-height: 37px;
         height: 100%;
-background-color: #fff;
-font-size: 16px;
-font-weight: bold;
-opacity: 60%;
-border: none;
+        background-color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        opacity: 60%;
+        border: none;
     }
 
     &__input {
-border-bottom: 1px solid #D8D8D8; 
+        border: none;
+    }
+
+    &__input::placeholder {
+border-bottom: 1px solid #D8D8D8;
+
     }
 
     }
 
-}
-
+    .button {
+        width: 125px;
+        height: 50px; 
+        background-color: #4A4FF2;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff; 
+        border: none; 
+ }
+    .button:hover {
+            background-color: #3437a3;
+            color: #fff; 
+        }
+   
