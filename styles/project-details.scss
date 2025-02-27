@@ -8,6 +8,7 @@
 }
 
 main {
+    
     background-color: #fff;
     margin-left: 125px;
     margin-right: 125px; 
@@ -15,6 +16,9 @@ main {
 
 .top {
     margin-bottom: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
 
     &__head {
         max-width: 495px;
@@ -37,6 +41,8 @@ main {
         opacity: 80%;
     }
 }
+
+@import 'project-grid';
 
 .img {
     margin-top: 61px;
@@ -62,9 +68,7 @@ main {
     margin-bottom: 132px;
 
     &__2, &__3, &__4 {
-    max-width: 350px;
+    max-width: 390px;
     width: 100%;
-    min-height: 400px;
-    height: 100%;
     }
 }
