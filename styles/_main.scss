@@ -63,18 +63,33 @@ main {
     
 }
 
-
-
 @import 'grid'; 
 
-.info {
+.info__container {
+    margin-top: 91px;
     max-width: 1079px;
     width: 100%;
     min-height: 106px;
     height: 100%; 
     display: flex; 
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
+    margin-bottom: 101px;
+}
+
+ul {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 60px;
+    row-gap: 10px;
+}
+
+.info {
+    max-width: 635px;
+    width: 100%;
+    min-height: 106px;
+    height: 100%; 
 
     &__info {
         font-size: 28px;
@@ -86,7 +101,12 @@ main {
         font-style: none; 
         font-size: 18px;
         opacity: 60%;
+    
+    & li {
+        margin-bottom: 10px;
+    }
 
     }
 
 }
+
