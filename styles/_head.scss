@@ -13,14 +13,11 @@
 }
 
 .nav {
-    display: flex; 
-    font-family: "mulish", serif; 
+    font-family: "mulish", serif;
     font-size: 18px;
     font-weight: bold; 
+    list-style: none;
+    text-decoration: none;
 
-        &__links {
-        color: #000;
-        text-decoration: none; 
-        list-style: none; 
-}
+
 }
