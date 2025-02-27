@@ -4,7 +4,8 @@
 @import 'footer';
 
 * {
-    font-family: fonts.$main-font; 
+    $main-font: 'mulish', serif; 
+$main-txt-color: #111111;
 }
 
 main {

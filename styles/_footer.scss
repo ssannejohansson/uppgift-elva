@@ -1,25 +1,33 @@
 .footer {
-    margin-left: 126px;
-    margin-right: 126px;
+    margin-left: 125px;
+    margin-right: 125px;
     margin-bottom: 26px;
     margin-top: 100px;
     display: flex; 
-    justify-content: flex-end;
-    align-items: center;
-    font-family: "mulish", serif;
+    justify-content: space-between;
+    align-items: baseline;
     font-size: 18px;
     font-weight: bold;
 
     &__links {
+    list-style: none;
     text-decoration: none;
+    }
 
     &__links li, &__links li a {
     text-decoration: none; 
-        }
+    color: #111111;
     }
- &__logo {
+
+    &__links li:hover, &__links li a:hover {
+        color: #4A4FF2;
+    }
+}
+    
+.logo {
     width: 90px;
     height: 19px; 
+
 }
 
 .icons {
@@ -36,4 +44,3 @@
 
 
 }
-
