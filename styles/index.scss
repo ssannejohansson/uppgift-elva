@@ -1,6 +1,13 @@
 @use 'fonts';
 
 @import 'head';
+@import 'footer';
+
+body {
+    font-family: fonts.$main-font;
+    color: $main-txt-color;
+}
+
 
 main {
     background-color: #fff;
@@ -8,10 +15,6 @@ main {
     margin-right: 125px; 
 }
 
-* {
-    $main-font: 'mulish', serif; 
-    $main-txt-color: #111111;   
-}
 
 .title {
     max-width: 1037px;
@@ -113,5 +116,3 @@ ul {
 }
 
 @import 'award-grid'; 
-
-@import 'footer';
